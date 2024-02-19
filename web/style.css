@@ -1,3 +1,17 @@
 body {
+    
     background-color: lightblue;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+.dois{
+    text-align: center;
+}
+.tres{
+    text-align: end;
+}
+.texto{
+    font-size: 50px;
+    text-align: center;
+
+}
