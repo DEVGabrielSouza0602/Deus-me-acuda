@@ -1,9 +1,28 @@
-body {
+ body {
     
-    background-color: lightblue;
+    background-image:url("back.jpg" ) ;
+    background-repeat: no-repeat;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+    background-size: 100%;
   }
+.icone01{
+    width: 10%;
+}
+.botao{
+    width: 8%;
+    background-color: rgb(104, 236, 42);
+    border-radius: 40%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.pergunta{
+    border-radius: 15%;
+    border-color: blueviolet;
+}
+  /*
 .dois{
     text-align: center;
 }
@@ -14,4 +33,4 @@ body {
     font-size: 50px;
     text-align: center;
 
-}
+} */
