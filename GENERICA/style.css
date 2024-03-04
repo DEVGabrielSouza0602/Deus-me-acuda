@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+	display: flex;
+  flex-direction: column;
+}
+.item {
+	flex: 1;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.navbar{
+  min-height: 4rem;
+  
+	background: #7eee4a;
+  box-shadow: 0em 2em 5rem #0a0a0a;
+}
+.conteudo{
+  min-height: 38rem;
+  
+}
+.footer{
+  min-height: 4rem;
+  
+	background: #7eee4a;
+}
