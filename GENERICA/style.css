@@ -2,31 +2,115 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: rgb(216, 209, 209);
   
+}
+ul,li{
+  list-style: none;
+  color: antiquewhite;
+}
+.navtitle{
+  background-color: #ff8800;
+  height: 6rem;
+  margin: 0 auto;
+  width: 110%;
 }
 
-.container {
-	display: flex;
-  flex-direction: column;
+#tituloblack{
+  color: black;
+  margin-left: 41%;
 }
-.item {
-	flex: 1;
-	text-align: center;
-	font-size: 1.5em;
+.navtitle>span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.navul{
+  background-color: #ff8800;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.alinhamento{
+  display: flex;
+  width: 50%;
+  height: 2em;
+  margin-left: 23%;
+  margin-bottom: 100px;
+}
+.linav{
+  margin-left: 10%;
+  text-shadow: 0px 0px 10px #ffe600;
 }
 
-.navbar{
-  min-height: 4rem;
-  
-	background: #7eee4a;
-  box-shadow: 0em 2em 5rem #0a0a0a;
+
+
+.container-page {
+  width: 86%;
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: repeat(4, auto);
+  margin-left: 7%;
+
 }
-.conteudo{
-  min-height: 38rem;
-  
+.container-page>main {
+  margin-top: -90px;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-auto-rows: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2em;
 }
-.footer{
-  min-height: 4rem;
+
+
+
+
+article {
+  border-radius: 1.5%;
   
-	background: #7eee4a;
+  background-color: #ffffff54;
+
+
+}
+.img{
+  margin-left: 20px;
+}
+.texto{
+  margin-left: 20px;
+}
+.postagemrecentes{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #ffffff;
+}
+.cardpstagens{
+  background-color: #cfc4c4;
+  height: 2em;
+}
+.titulopostagem{
+  margin-top: -15px;
+  background-color: #b3b1ac;
+  margin-left: 5%;
+  width: 90%;
+  height: 10%;
+  color: #252525; 
+}
+.card02{
+  margin-top: 10px;
+  background-color: #e6d8d8;
+
+}
+#titulopost{
+  margin-left: 20px;
+  color: #f19317;
+}
+#subtitulopost{
+  margin-left: 20px;
+  color: #9c9790;
+
 }
