@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4f2ec;
+}
+NAV {
+    background-color: #272217;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    color: #8d5f14;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    justify-content: space-between;
+    margin-left: 10;
+}
+
+h1 {
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+
+}
+
+.branco {
+    color: white;
+    margin-right: 8px;
+
+}
+
+.navbar {
+    margin-top: 3%;
+    margin-right: 15%;
+    gap: 1rem;
+    list-style: NONE;
+    display: flex;
+}
+
+main {
+    margin-top: -4%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    gap: 1em;
+}
+
+.imagem {
+    background: url(WebMobileI_Aula06_Recursos/img/museu.png);
+    width: 100%;
+    height: 300px;
+}
+
+.card2 {
+    width: 100%;
+    background: url(WebMobileI_Aula06_Recursos/img/depoimento.png);
+
+}
+
+.card3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    height: 300px;
+}
+
+.card31 {
+    width: 100%;
+}
+
+.titulocards {
+    color: #418434;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.baixo {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.video {
+    margin-left: 5%;
+}
+
+.ulcards {
+    margin-left: 18%;
+    color: #b47019;
+    font-size: 15px;
+}
+
+.footercard {
+    color: #bb7f31;
+
+}
+
+.card32 {
+    width: 100%;
+    background-color: rgb(128, 0, 0);
+}
+
+.texto {
+    margin-left: 5%;
+}
+
+.cardb {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.imagemcard {
+    width: 90%;
+    height: 200px;
+}
+
+.card4 {
+    width: 100%;
+    background-color: #cdc8b1;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 500px;
+
+}
+
+.blocoquestionario {
+    margin-top: 15px;
+    display: flex;
+}
+
+.titulocard4 {
+    color: #a37c52;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+
+.subtitulocard4 {
+    font-size: 15px;
+    margin-left: 5%;
+
+}
+
+.btndata {
+    margin-top: -3px;
+    margin-left: 5px;
+    height: 20px;
+    width: 130px;
+}
+
+.btnqtd {
+    margin-top: -3px;
+    height: 20px;
+
+    margin-left: 5px;
+    width: 20px;
+}
+
+.verificardisponibilidade {
+    width: 90%;
+    height: 27%;
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: #9b9271;
+    border: none;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.topo {
+    grid-row: 1;
+
+}
+
+.galeria {
+    grid-row: 2 / -1;
+    background-color: #ebe7dd;
+}
+
+.titulobaixocard4 {
+    color: #a37c52;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.fotoscard4 {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 90%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 10%;
+}
+
+.foto1 {
+    background: url(WebMobileI_Aula06_Recursos/img/fundo-foto.png);
+    background-size: cover;
+}
+
+.imagemgaleria {
+    margin-left: 17px;
+    margin-top: 22px;
+    width: 75%;
+}
+.divisorifooter{
+    background: url(WebMobileI_Aula06_Recursos/img/fundo-rodape.png);
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 60%;
+    height: 1.5px;
+}
+
+footer {
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+}
+
+.navfooter {
+    display: flex;
+    list-style: none;
+    margin-left: 25%;
+
+}
+
+.navfooter>li {
+    margin-left: 2.5%;
+    color: #b47019;
+}
+.navfooterb{
+    display: flex;
+    list-style: none;
+    margin-top: 0.5%;
+    margin-left: 31%;
+}
+.navfooterb>li {
+    margin-left: 2%;
+    color: #b47019;
+}
